@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles.CommandLine", "Pickles.CommandLine\Pickles.CommandLine.csproj", "{369238A8-83B0-46E2-9D01-9133841FA0D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles", "Pickles\Pickles.csproj", "{21828DE2-EF6D-491B-933A-BDD1609634B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{369238A8-83B0-46E2-9D01-9133841FA0D0}.Release|x64.Build.0 = Release|Any CPU
 		{369238A8-83B0-46E2-9D01-9133841FA0D0}.Release|x86.ActiveCfg = Release|Any CPU
 		{369238A8-83B0-46E2-9D01-9133841FA0D0}.Release|x86.Build.0 = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|x64.Build.0 = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Debug|x86.Build.0 = Debug|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|x64.ActiveCfg = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|x64.Build.0 = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|x86.ActiveCfg = Release|Any CPU
+		{21828DE2-EF6D-491B-933A-BDD1609634B4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
