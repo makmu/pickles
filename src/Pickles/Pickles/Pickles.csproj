@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+            <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +15,10 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NLog" Version="4.5.3" />
     <PackageReference Include="System.IO.Abstractions" Version="2.1.0.178" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pickles.ObjectModel\Pickles.ObjectModel.csproj" />
   </ItemGroup>
 
 </Project>
