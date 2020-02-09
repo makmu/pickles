@@ -104,11 +104,11 @@ namespace PicklesDoc.Pickles.DocumentationBuilders.Html
         {
             string path = this.fileSystem.Path.Combine(folder, filename);
 
-            using (Image image = Image.FromStream(this.GetResourceStream(this.namespaceOfResources + "img." + filename)))
+            using (var resourceStream = this.GetResourceStream(this.namespaceOfResources + "img." + filename))
             {
                 using (var stream = this.fileSystem.File.Create(path))
                 {
-                    image.Save(stream, ImageFormat.Png);
+                    resourceStream.CopyTo(stream);
                 }
             }
         }

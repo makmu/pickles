@@ -26,7 +26,7 @@ namespace PicklesDoc.Pickles.DocumentationBuilders.Html
     public class HtmlResourceWriter : ResourceWriter
     {
         public HtmlResourceWriter(IFileSystem fileSystem)
-            : base(fileSystem, "PicklesDoc.Pickles.DocumentationBuilders.Html.Resources.")
+            : base(fileSystem, "Pickles.DocumentationBuilders.Html.Resources.")
         {
         }
 
