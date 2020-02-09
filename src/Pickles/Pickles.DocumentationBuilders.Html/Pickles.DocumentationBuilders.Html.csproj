@@ -19,4 +19,13 @@
     <ProjectReference Include="..\Pickles.ObjectModel\Pickles.ObjectModel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\css\font-awesome.css"/>
+    <EmbeddedResource Include="Resources\css\global.css"/>
+    <EmbeddedResource Include="Resources\css\master.css"/>
+    <EmbeddedResource Include="Resources\css\print.css"/>
+    <EmbeddedResource Include="Resources\css\reset.css"/>
+    <EmbeddedResource Include="Resources\css\structure.css"/>
+  </ItemGroup>
+
 </Project>
