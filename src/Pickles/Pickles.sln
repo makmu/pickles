@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles.DocumentationBuilde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles.DocumentationBuilders.Json", "Pickles.DocumentationBuilders.Json\Pickles.DocumentationBuilders.Json.csproj", "{C64C91FD-68DE-423B-AA8C-214FED786BC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles.DocumentationBuilders.Word", "Pickles.DocumentationBuilders.Word\Pickles.DocumentationBuilders.Word.csproj", "{00C325E3-F641-4B07-B356-3BF7311A233B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{C64C91FD-68DE-423B-AA8C-214FED786BC8}.Release|x64.Build.0 = Release|Any CPU
 		{C64C91FD-68DE-423B-AA8C-214FED786BC8}.Release|x86.ActiveCfg = Release|Any CPU
 		{C64C91FD-68DE-423B-AA8C-214FED786BC8}.Release|x86.Build.0 = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|x64.Build.0 = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Debug|x86.Build.0 = Debug|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|x64.ActiveCfg = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|x64.Build.0 = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|x86.ActiveCfg = Release|Any CPU
+		{00C325E3-F641-4B07-B356-3BF7311A233B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
