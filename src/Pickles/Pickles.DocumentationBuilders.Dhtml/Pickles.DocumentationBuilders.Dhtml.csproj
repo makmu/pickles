@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Pickles.ObjectModel\Pickles.ObjectModel.csproj" />
     <ProjectReference Include="..\Pickles.DocumentationBuilders.Json\Pickles.DocumentationBuilders.Json.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Html\Pickles.DocumentationBuilders.Html.csproj" />
   </ItemGroup>
 
 </Project>
