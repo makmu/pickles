@@ -12,9 +12,11 @@
     <PackageReference Include="Autofac" Version="4.8.0" />
     <PackageReference Include="FeatureSwitcher" Version="2.1.0" />
     <PackageReference Include="Gherkin" Version="4.0.0" />
+    <PackageReference Include="MarkdownSharp" Version="2.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NGenerics" Version="1.5.3" />
     <PackageReference Include="NLog" Version="4.5.3" />
+    <PackageReference Include="Strike.Jint" Version="1.10.0" />
     <PackageReference Include="System.IO.Abstractions" Version="2.1.0.178" />
   </ItemGroup>
 

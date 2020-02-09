@@ -22,11 +22,11 @@ namespace PicklesDoc.Pickles
 {
     public class MarkdownProvider : IMarkdownProvider
     {
-        private readonly MarkdownDeep.Markdown markdown;
+        private readonly MarkdownSharp.Markdown markdown;
 
         public MarkdownProvider()
         {
-            this.markdown = new MarkdownDeep.Markdown { ExtraMode = true, SafeMode = true };
+            this.markdown = new MarkdownSharp.Markdown();
         }
 
         public string Transform(string text)
