@@ -55,14 +55,14 @@ namespace PicklesDoc.Pickles.Extensions
         {
             // Uri class treats paths that end in \ as directories, and without \ as files.
             // So if its a file then we need to append the \ to make the Uri class recognize it as a directory
-            path = RemoveEndSlashSoWeDoNotHaveTwoIfThisIsADirectory(path);
+            path = RemoveEndSlashSoWeDoNotHaveTwoIfThisIsADirectory(path, fileSystem);
 
-            return fileSystem.Directory.Exists(path) ? path + @"\" : path;
+            return fileSystem.Directory.Exists(path) ? path + fileSystem.Path.DirectorySeparatorChar : path;
         }
 
-        private static string RemoveEndSlashSoWeDoNotHaveTwoIfThisIsADirectory(string path)
+        private static string RemoveEndSlashSoWeDoNotHaveTwoIfThisIsADirectory(string path, IFileSystem fileSystem)
         {
-            return path.TrimEnd('\\');
+            return path.TrimEnd(fileSystem.Path.DirectorySeparatorChar);
         }
 
         public static string MakeRelativePath(FileSystemInfoBase from, FileSystemInfoBase to, IFileSystem fileSystem)

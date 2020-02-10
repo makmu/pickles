@@ -20,6 +20,7 @@
 
 using System;
 using System.IO;
+using System.IO.Abstractions;
 using System.IO.Abstractions.TestingHelpers;
 using System.Linq;
 using NFluent;
@@ -99,7 +100,7 @@ namespace PicklesDoc.Pickles.Test
 
             var report = new ParsingReport();
 
-            featureNodeFactory.Create(null, new BogusFileSystemInfoBase { fullName = "Totally Bad Name"}, report);
+            featureNodeFactory.Create(null, new BogusFileSystemInfoBase(FileSystem) { fullName = "Totally Bad Name"}, report);
 
             Check.That(report.First()).Contains(@"Totally Bad Name");
         }
@@ -134,6 +135,8 @@ namespace PicklesDoc.Pickles.Test
             public override DateTime LastWriteTime { get; set; }
             public override DateTime LastWriteTimeUtc { get; set; }
             public override string Name { get; }
+
+            public BogusFileSystemInfoBase(IFileSystem fileSystem): base(fileSystem) { }
         }
 
         private class MockMarkdownProvider : IMarkdownProvider
