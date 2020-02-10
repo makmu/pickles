@@ -6,6 +6,7 @@
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +20,21 @@
     <PackageReference Include="NUnit" Version="3.10.1" />
     <PackageReference Include="System.IO.Abstractions" Version="2.1.0.178" />
     <PackageReference Include="System.IO.Abstractions.TestingHelpers" Version="2.1.0.178" />
+    <PackageReference Include="System.Resources.Extensions" Version="4.7.0" />
     <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.4.0" />
     <PackageReference Include="System.ValueTuple" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pickles\Pickles.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Cucumber\Pickles.DocumentationBuilders.Cucumber.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Dhtml\Pickles.DocumentationBuilders.Dhtml.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Excel\Pickles.DocumentationBuilders.Excel.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Html\Pickles.DocumentationBuilders.Html.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Json\Pickles.DocumentationBuilders.Json.csproj" />
+    <ProjectReference Include="..\Pickles.DocumentationBuilders.Word\Pickles.DocumentationBuilders.Word.csproj" />
+    <ProjectReference Include="..\Pickles.ObjectModel\Pickles.ObjectModel.csproj" />
+    <ProjectReference Include="..\Pickles.TestFrameworks\Pickles.TestFrameworks.csproj" />
   </ItemGroup>
 
 </Project>
