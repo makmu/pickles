@@ -48,7 +48,7 @@ namespace PicklesDoc.Pickles.DirectoryCrawler
 
         public INode Create(FileSystemInfoBase root, FileSystemInfoBase location, ParsingReport report)
         {
-            string relativePathFromRoot = root == null ? @".\" : PathExtensions.MakeRelativePath(root, location, this.fileSystem);
+            string relativePathFromRoot = root == null ? @"./" : PathExtensions.MakeRelativePath(root, location, this.fileSystem);
 
             var directory = location as DirectoryInfoBase;
             if (directory != null)
