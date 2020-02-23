@@ -54,7 +54,7 @@ namespace PicklesDoc.Pickles.TestFrameworks.UnitTests
             foreach (var fileName in this.resultsFileNames)
             {
                 // Write out the embedded test results file
-                using (var input = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("PicklesDoc.Pickles.TestFrameworks.UnitTests." + fileName)))
+                using (var input = new StreamReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("Pickles.TestFrameworks.UnitTests." + fileName)))
                 {
                     FileSystem.AddFile(fileName, new MockFileData(input.ReadToEnd()));
                 }

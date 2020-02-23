@@ -146,17 +146,17 @@ namespace PicklesDoc.Pickles.DocumentationBuilders.Html
 
         private string GetNameFromResourceName(string resourceName)
         {
-            if (resourceName.StartsWith("PicklesDoc.Pickles.Resources.Html.img"))
+            if (resourceName.StartsWith("Pickles.Resources.Html.img"))
             {
-                return resourceName.Replace("PicklesDoc.Pickles.Resources.Html.img.", string.Empty);
+                return resourceName.Replace("Pickles.Resources.Html.img.", string.Empty);
             }
-            else if (resourceName.StartsWith("PicklesDoc.Pickles.Resources.Html.js"))
+            else if (resourceName.StartsWith("Pickles.Resources.Html.js"))
             {
-                return resourceName.Replace("PicklesDoc.Pickles.Resources.Html.js.", string.Empty);
+                return resourceName.Replace("Pickles.Resources.Html.js.", string.Empty);
             }
             else
             {
-                return resourceName.Replace("PicklesDoc.Pickles.Resources.Html.css.", string.Empty);
+                return resourceName.Replace("Pickles.Resources.Html.css.", string.Empty);
             }
         }
     }
