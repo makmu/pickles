@@ -52,7 +52,7 @@ namespace PicklesDoc.Pickles.Extensions
         public static string ToSlug(this string text)
         {
             // remove any accent characters
-            var bytes = Encoding.GetEncoding("Cyrillic").GetBytes(text);
+            var bytes = Encoding.GetEncoding("utf-8").GetBytes(text);
             var str = Encoding.ASCII.GetString(bytes);
 
             // modify string to slug format

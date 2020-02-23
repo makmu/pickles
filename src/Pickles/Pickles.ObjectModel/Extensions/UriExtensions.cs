@@ -29,9 +29,9 @@ namespace PicklesDoc.Pickles.Extensions
         {
             string fullName = instance.FullName;
 
-            if (!instance.FullName.EndsWith(@"\"))
+            if (!instance.FullName.EndsWith(@"/"))
             {
-                fullName = fullName + @"\";
+                fullName = fullName + @"/";
             }
 
             return fullName.ToFolderUri();
@@ -68,9 +68,9 @@ namespace PicklesDoc.Pickles.Extensions
 
         public static Uri ToFolderUri(this string instance)
         {
-            if (!instance.EndsWith(@"\"))
+            if (!instance.EndsWith(@"/"))
             {
-                return new Uri(instance + @"\");
+                return new Uri(instance + @"/");
             }
 
             return new Uri(instance);

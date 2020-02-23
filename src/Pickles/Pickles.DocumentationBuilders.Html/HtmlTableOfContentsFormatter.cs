@@ -67,6 +67,7 @@ namespace PicklesDoc.Pickles.DocumentationBuilders.Html
 
         private XElement AddNodeForDirectory(XNamespace xmlns, Uri file, Tree childNode)
         {
+            Console.Out.WriteLine("checkpoint 1:" + childNode.Data.GetRelativeUriTo(file) + "index.html");
             var xElement = new XElement(
                 xmlns + "li",
                 new XElement(

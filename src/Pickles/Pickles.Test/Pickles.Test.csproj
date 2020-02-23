@@ -42,5 +42,48 @@
     <ProjectReference Include="..\Pickles.ObjectModel\Pickles.ObjectModel.csproj" />
     <ProjectReference Include="..\Pickles.TestFrameworks\Pickles.TestFrameworks.csproj" />
   </ItemGroup>
+  <ItemGroup>
+        <EmbeddedResource Include="FakeFolderStructures\AcceptanceTest\AdvancedFeature.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\AcceptanceTest\LevelOne.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\index.md" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\LevelOne.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\SubLevelOne\ignorethisfile.ignore" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\SubLevelOne\LevelOneSublevelOne.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\SubLevelOne\LevelOneSublevelTwo.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\SubLevelOne\SubLevelTwo\IgnoreThisDirectory\IgnoreThisFile.ignore" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\SubLevelOne\SubLevelTwo\LevelOneSublevelOneSubLevelTwo.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\OrderingTests\A\a-b.feature">
+      <LastGenOutput>a-b.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\OrderingTests\A\a-a.feature">
+      <LastGenOutput>a-a.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\OrderingTests\B\b-a.feature">
+      <LastGenOutput>a-a.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\OrderingTests\B\b-b.feature">
+      <LastGenOutput>a-b.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\LevelOneIgnoredFeature.feature" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\LevelOneRemoveTagsToHide.feature" />
+    <None Include="Resources\test.jpg" />
+    <EmbeddedResource Include="FakeFolderStructures\FeatureCrawlerTests\image.png" />
+    <None Include="App.config" />
+    <EmbeddedResource Include="FakeFolderStructures\JSON\Features\OneScenarioTransferingMoneyBetweenAccountsFailing.feature">
+      <LastGenOutput>OneScenarioTransferingMoneyBetweenAccountsFailing.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\JSON\Features\TransferBetweenAccounts_WithSuccess.feature">
+      <LastGenOutput>TransferBetweenAccounts_WithSuccess.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\JSON\Features\TwoScenariosTransferingFundsOneFailingOneSuccess.feature">
+      <LastGenOutput>TwoScenariosTransferingFundsOneFailingOneSuccess.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FakeFolderStructures\JSON\Features\TwoScenariosTransferingMoneyBetweenAccoutsWithSuccess.feature">
+      <LastGenOutput>TwoScenariosTransferingMoneyBetweenAccoutsWithSuccess.feature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <EmbeddedResource Include="FakeFolderStructures\JSON\results-example-failing-and-pasing-mstest.trx" />
+    <None Include="Settings.StyleCop" />
+  </ItemGroup>
 
 </Project>
