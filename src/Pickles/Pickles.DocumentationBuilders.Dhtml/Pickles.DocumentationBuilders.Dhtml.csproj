@@ -19,5 +19,85 @@
     <ProjectReference Include="..\Pickles.DocumentationBuilders.Json\Pickles.DocumentationBuilders.Json.csproj" />
     <ProjectReference Include="..\Pickles.DocumentationBuilders.Html\Pickles.DocumentationBuilders.Html.csproj" />
   </ItemGroup>
+  <ItemGroup>
+  <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\css\bootstrap.min.css">
+      <Link>Resources\css\bootstrap.min.css</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\css\print.css">
+      <Link>Resources\css\print.css</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\css\styles.css">
+      <Link>Resources\css\styles.css</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\img\glyphicons-halflings-white.png">
+      <Link>Resources\img\glyphicons-halflings-white.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\img\glyphicons-halflings.png">
+      <Link>Resources\img\glyphicons-halflings.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\img\link.png">
+      <Link>Resources\img\link.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\bootstrap.min.js">
+      <Link>Resources\js\bootstrap.min.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\Chart.min.js">
+      <Link>Resources\js\Chart.min.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\Chart.StackedBar.js">
+      <Link>Resources\js\Chart.StackedBar.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\featureSearch.js">
+      <Link>Resources\js\featureSearch.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\featuresModel.js">
+      <Link>Resources\js\featuresModel.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\heirarchyBuilder.js">
+      <Link>Resources\js\heirarchyBuilder.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\html5.js">
+      <Link>Resources\js\html5.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\jquery-1.8.3.min.js">
+      <Link>Resources\js\jquery-1.8.3.min.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\jquery.highlight-4.closure.js">
+      <Link>Resources\js\jquery.highlight-4.closure.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\knockout-3.4.0.js">
+      <Link>Resources\js\knockout-3.4.0.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\knockout.mapping-latest.js">
+      <Link>Resources\js\knockout.mapping-latest.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\logger.js">
+      <Link>Resources\js\logger.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\Markdown.Converter.js">
+      <Link>Resources\js\Markdown.Converter.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\Markdown.Extra.js">
+      <Link>Resources\js\Markdown.Extra.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\picklesOverview.js">
+      <Link>Resources\js\picklesOverview.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\stringFormatting.js">
+      <Link>Resources\js\stringFormatting.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\typeaheadList.js">
+      <Link>Resources\js\typeaheadList.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\js\underscore-min.js">
+      <Link>Resources\js\underscore-min.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\Index.html">
+      <Link>Resources\Index.html</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Pickles.BaseDhtmlFiles\pickledFeatures.js">
+      <Link>Resources\pickledFeatures.js</Link>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>
