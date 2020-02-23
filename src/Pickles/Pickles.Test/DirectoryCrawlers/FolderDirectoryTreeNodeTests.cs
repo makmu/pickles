@@ -129,23 +129,5 @@ namespace PicklesDoc.Pickles.Test.DirectoryCrawlers
 
             Check.That(relative).IsEqualTo("test1.html");
         }
-
-        [Test]
-        public void RealData()
-        {
-            var originalLocation =
-                FileSystem.DirectoryInfo.FromDirectoryName(
-                    @"C:\tfs\Dev.CAX\src\CAX_Main\src\net\Projects\Aim.Gain.GoldenCopy.FunctionalTesting\CAX\DistributionOfRights");
-
-            var node = new FolderNode(originalLocation, "");
-
-            var other =
-                new Uri(
-                    "file:///C:/tfs/Dev.CAX/src/CAX_Main/src/net/Projects/Aim.Gain.GoldenCopy.FunctionalTesting/CAX/");
-
-            string relative = node.GetRelativeUriTo(other);
-
-            Check.That(relative).IsEqualTo("DistributionOfRights/");
-        }
     }
 }

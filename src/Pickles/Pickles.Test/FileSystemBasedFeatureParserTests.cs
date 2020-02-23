@@ -31,11 +31,11 @@ namespace PicklesDoc.Pickles.Test
         [Test]
         public void Parse_InvalidFeatureFile_ThrowsFeatureParseExceptionWithFilename()
         {
-            FileSystem.AddFile(@"c:\temp\featurefile.feature", new MockFileData("Invalid feature file"));
+            FileSystem.AddFile(@"/temp/featurefile.feature", new MockFileData("Invalid feature file"));
             var parser = new FileSystemBasedFeatureParser(new FeatureParser(Configuration), FileSystem);
 
-            Check.ThatCode(() => parser.Parse(@"c:\temp\featurefile.feature")).Throws<FeatureParseException>()
-                .WithMessage(@"There was an error parsing the feature file here: c:\temp\featurefile.feature" +
+            Check.ThatCode(() => parser.Parse(@"/temp/featurefile.feature")).Throws<FeatureParseException>()
+                .WithMessage(@"There was an error parsing the feature file here: /temp/featurefile.feature" +
                              Environment.NewLine + @"Errormessage was: 'Unable to parse feature'");
         }
 
